@@ -1,0 +1,63 @@
+/* ============================================================
+   RiskShield — Global Styles
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: #030810;
+  color: #C8DEFF;
+  font-family: 'Outfit', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar            { width: 6px; height: 6px; }
+::-webkit-scrollbar-track      { background: #070F1C; }
+::-webkit-scrollbar-thumb      { background: #112236; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover{ background: #1A3050; }
+
+/* ── Keyframes ── */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.2; transform: scale(0.8); }
+  50%       { opacity: 1;   transform: scale(1);   }
+}
+
+@keyframes slide {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(200%);  }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(0, 229, 255, 0.3); }
+  50%       { box-shadow: 0 0 20px rgba(0, 229, 255, 0.7); }
+}
+
+/* ── Utility classes ── */
+.fade-in {
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+.animate-spin {
+  animation: spin 0.7s linear infinite;
+}
