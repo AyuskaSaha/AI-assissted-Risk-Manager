@@ -1,6 +1,6 @@
 # RiskShield — AI-Powered Risk Management System
 
-> Analyze SRS & BRD documents with 8 parallel AI agents, full visualization dashboard, and an interactive Copilot. **100% free. No backend. No data leaves your browser.**
+> Analyze SRS & BRD documents with 6 parallel AI agents, full visualization dashboard, and an interactive Copilot. **100% free. No backend. No data leaves your browser.**
 
 ---
 
