@@ -12,7 +12,7 @@
 | AI | Gemini 2.5 Flash (Google AI Studio — free) |
 | RAG | In-memory TF-IDF (browser-native, zero cost) |
 | Build | Vite 5 |
-| Hosting | Any static host (Vercel, Netlify, GitHub Pages) |
+| Hosting | Any static host (AWS ,Vercel, Netlify, GitHub Pages) |
 
 ---
 
